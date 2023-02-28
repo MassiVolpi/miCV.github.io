@@ -1,0 +1,150 @@
+@media (max-width: 768px) {
+    .estudios{
+        background-image: none;
+        background-color: #2B2B2B;
+        background-size: cover;
+        width: 100%;
+        height: 1000px;
+        z-index: 15;
+    }
+}
+  
+@media (max-width: 480px) {
+    .estudios{
+        background-image: none;
+        background-color: #2B2B2B;
+        height: fit-content;
+    }
+}
+
+
+
+
+.estudios{
+    background-image: url('https://drive.google.com/uc?export=download&id=1NHe0GrEBZGUqO0ne0USWMvrq3k4e7M7X');
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    z-index: 15;
+}
+
+.overlaynegro{
+    background: rgba(43,43,43,0.60);
+    height:1000px;
+    padding: 50px 55px 50px 55px;
+}
+
+.titulo1{
+    color: #2B2B2B;
+    font-size: 48px;
+    font-family: 'Kanit';
+    font-weight: 700;
+    margin: 0px auto 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.overlaynegro .titulocompleto{
+    height: 72px;
+}
+
+
+.cardprop{
+    width: 490px;
+    height: 180px;
+    background-color: var(--first-color);
+    box-shadow: 0px -2px 21px rgba(0, 0, 0, 0.44);
+    border-radius: 12px;
+    margin: 20px auto 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.infinal{
+    margin: 20px auto 20px auto;
+}
+
+.cont-texto{
+    padding-left: 12px;
+    padding-top: 50px;
+    height: 100%;
+
+}
+
+.titulocard{
+    font-size: 25px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    margin: 0px 0px 10px 0;
+}
+
+.dondecard{
+    font-family: 'Oxygen';
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.duracioncard{
+    font-family: 'Oxygen';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.titulocompleto{
+    width: 100%;
+}
+
+#cont-tarjetas{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.card{
+    width: 490px;
+    height: 180px;
+    background-color: var(--first-color);
+    border-radius: 12px;
+    margin: 20px auto 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.cont-texto{
+    padding-left: 12px;
+    padding-top: 50px;
+    height: 100%;
+
+}
+
+.titulocard{
+    font-size: 25px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    margin: 0px 0px 10px 0;
+}
+
+.dondecard{
+    font-family: 'Oxygen';
+    font-size: 17px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.duracioncard{
+    font-family: 'Oxygen';
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.imagen-card{
+    width: 120%;
+    height: auto;
+}
+

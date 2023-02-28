@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&family=Oxygen:wght@400;500;700&display=swap');
+@import 'estudios.css';
+@import 'herramientas.css';
+@import 'contacto.css';
+@import 'colores.css';
+@import 'proyectos.css';
+
+@media (max-width: 768px) {
+    #mifoto {
+      height: 250px;
+    }
+  
+    #nombre {
+      padding: 30px 0;
+    }
+  
+    #nombre p {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  
+@media (max-width: 480px) {
+#mifoto {
+    height: 200px;
+}
+
+#nombre p {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#estudiante {
+    font-size: 16px;
+}
+}
+
+
+:root{
+    --first-color: #FFD600;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    scroll-behavior: smooth;
+    transition: all 250ms;}
+body{
+    margin: 0;
+}
+
+nav {
+    background-color: var(--first-color);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    box-shadow: 0px -2px 21px rgba(0, 0, 0, 0.25);
+}
+
+nav #titulo {
+    font-family: 'Kanit';
+    font-size: 40PX;
+    font-weight: 700;
+    color: #2B2B2B;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #2B2B2B;
+    font-size: 18px;
+    font-family: 'Kanit';
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 100%;
+    background-color: #2B2B2B;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+nav ul li a:hover {
+    background-color: #2B2B2B ;
+    color: #ffffff;
+}
+
+section[id]{
+    scroll-margin-top: 112px;
+}
+
+.inicio{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#mifoto{
+    background-image: url('https://drive.google.com/uc?export=download&id=1BKyT5C8VfOScmIXoY_32bnc-0ahn94e0');
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    background-size: cover;
+    display: block;
+    background-position: center;
+    z-index: 10;
+}
+
+#filtrocolor{
+    width: 100%;
+    height: 100%;
+    background-color: var(--first-color);
+    opacity: 40%;
+}
+
+#nombre{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+    padding: 50px 0;
+}
+
+#nombre p{
+    font-family: 'Kanit';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+#estudiante{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+#containerseparador{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.separador{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.acercat0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#acercat1{
+    padding: 50px 70px 50px 70px;
+    background-color: var(--first-color);
+    z-index: 20;
+}
+
+#acercat2{
+    margin: 55px 50px 55px 50px;
+    background: #f3f3f3;
+    box-shadow: 0px 14px 15px rgba(0, 0, 0, 0.44);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#acercat3{
+    padding: 25px 70px 50px 70px;
+    display: flex;
+}
+
+#acercat3 #texto{
+    font-family: 'Oxygen';
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0;
+    display: flexbox;
+    justify-content: center;
+}
+
+.fondo-ama{
+background-color: var(--first-color);
+}
+
+.fondo-claro{
+    background-color: #f3f3f3;
+}
+
+#colorclaro{
+    color: #f3f3f3;
+}
+
+.color-ama{
+    color: var(--first-color);
+}
